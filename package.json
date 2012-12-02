@@ -1,0 +1,15 @@
+{
+  "name": "errcodes",
+  "version": "0.0.0",
+  "description": "ERROR: No README.md file found!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/crcn/errcodes.js.git"
+  },
+  "author": "",
+  "license": "BSD"
+}
