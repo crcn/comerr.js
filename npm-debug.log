@@ -1,0 +1,99 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.24
+3 info using node@v0.10.30
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/craig/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/Users/craig/.npm/comerr/0.0.8/package.tgz', '.' ]
+11 verbose tarball /Users/craig/.npm/comerr/0.0.8/package.tgz
+12 verbose folder .
+13 info prepublish comerr@0.0.8
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/craig/.npm/1f1177db-tar.lock
+16 silly lockFile f05c31f7-aig-npm-comerr-0-0-8-package-tgz tar:///Users/craig/.npm/comerr/0.0.8/package.tgz
+17 verbose lock tar:///Users/craig/.npm/comerr/0.0.8/package.tgz /Users/craig/.npm/f05c31f7-aig-npm-comerr-0-0-8-package-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile f05c31f7-aig-npm-comerr-0-0-8-package-tgz tar:///Users/craig/.npm/comerr/0.0.8/package.tgz
+21 silly lockFile f05c31f7-aig-npm-comerr-0-0-8-package-tgz tar:///Users/craig/.npm/comerr/0.0.8/package.tgz
+22 silly lockFile 4eb824cc-s-craig-npm-comerr-0-0-8-package /Users/craig/.npm/comerr/0.0.8/package
+23 verbose lock /Users/craig/.npm/comerr/0.0.8/package /Users/craig/.npm/4eb824cc-s-craig-npm-comerr-0-0-8-package.lock
+24 silly lockFile 4eb824cc-s-craig-npm-comerr-0-0-8-package /Users/craig/.npm/comerr/0.0.8/package
+25 silly lockFile 4eb824cc-s-craig-npm-comerr-0-0-8-package /Users/craig/.npm/comerr/0.0.8/package
+26 silly lockFile 3a52ce78- .
+27 silly lockFile 3a52ce78- .
+28 silly publish { name: 'comerr',
+28 silly publish   version: '0.0.8',
+28 silly publish   description: 'ERROR: No README.md file found!',
+28 silly publish   main: 'lib/index.js',
+28 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+28 silly publish   repository: { type: 'git', url: 'git://github.com/crcn/errcodes.js.git' },
+28 silly publish   author: '',
+28 silly publish   license: 'BSD',
+28 silly publish   gitHead: '10306a335398def40990cbe9428afc2fe7fd9e0a',
+28 silly publish   bugs: { url: 'https://github.com/crcn/errcodes.js/issues' },
+28 silly publish   readme: 'ERROR: No README data found!',
+28 silly publish   homepage: 'https://github.com/crcn/errcodes.js',
+28 silly publish   _id: 'comerr@0.0.8',
+28 silly publish   _shasum: '4786a8a498d1490c5fe0d39ed19f519413c71214',
+28 silly publish   _from: '.' }
+29 verbose request where is /comerr
+30 verbose request registry http://registry.npmjs.org/
+31 verbose request id 33a39f622d99103d
+32 verbose url raw /comerr
+33 verbose url resolving [ 'http://registry.npmjs.org/', './comerr' ]
+34 verbose url resolved http://registry.npmjs.org/comerr
+35 verbose request where is http://registry.npmjs.org/comerr
+36 info trying registry request attempt 1 at 14:29:03
+37 http PUT http://registry.npmjs.org/comerr
+38 http 403 http://registry.npmjs.org/comerr
+39 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+39 verbose headers   'content-type': 'application/json',
+39 verbose headers   'cache-control': 'max-age=60',
+39 verbose headers   'content-length': '1957',
+39 verbose headers   'accept-ranges': 'bytes',
+39 verbose headers   date: 'Sun, 12 Oct 2014 21:29:03 GMT',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   connection: 'keep-alive',
+39 verbose headers   'x-served-by': 'cache-sjc3128-SJC',
+39 verbose headers   'x-cache': 'MISS',
+39 verbose headers   'x-cache-hits': '0',
+39 verbose headers   'x-timer': 'S1413149343.748899,VS0,VE42' }
+40 error publish Failed PUT 403
+41 error Error: forbidden cannot modify pre-existing version: 0.0.8
+41 error old={"name":"comerr","version":"0.0.8","description":"ERROR: No README.md file found!","main":"lib/index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"git://github.com/crcn/errcodes.js.git"},"author":"","license":"BSD","gitHead":"255b94b262a8f733c0d949e82afe8f8dfec4614c","bugs":{"url":"https://github.com/crcn/errcodes.js/issues"},"homepage":"https://github.com/crcn/errcodes.js","_id":"comerr@0.0.8","_shasum":"4786a8a498d1490c5fe0d39ed19f519413c71214","_from":".","_npmVersion":"1.4.24","_npmUser":{"name":"architectd","email":"craig.j.condon@gmail.com"},"maintainers":[{"name":"architectd","email":"craig.j.condon@gmail.com"}],"dist":{"shasum":"4786a8a498d1490c5fe0d39ed19f519413c71214","tarball":"http://registry.npmjs.org/comerr/-/comerr-0.0.8.tgz"}}
+41 error new={"name":"comerr","version":"0.0.8","description":"ERROR: No README.md file found!","main":"lib/index.js","scripts":{"test":"echo \"Error: no test specified\" && exit 1"},"repository":{"type":"git","url":"git://github.com/crcn/errcodes.js.git"},"author":"","license":"BSD","gitHead":"10306a335398def40990cbe9428afc2fe7fd9e0a","bugs":{"url":"https://github.com/crcn/errcodes.js/issues"},"readme":"ERROR: No README data found!","homepage":"https://github.com/crcn/errcodes.js","_id":"comerr@0.0.8","_shasum":"4786a8a498d1490c5fe0d39ed19f519413c71214","_from":".","_npmVersion":"1.4.24","_npmUser":{"name":"architectd","email":"craig.j.condon@gmail.com"},"maintainers":[{"name":"architectd","email":"craig.j.condon@gmail.com"}],"dist":{"shasum":"4786a8a498d1490c5fe0d39ed19f519413c71214","tarball":"http://registry.npmjs.org/comerr/-/comerr-0.0.8.tgz"}}: comerr
+41 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:300:14)
+41 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:238:65)
+41 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+41 error     at Request.emit (events.js:98:17)
+41 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+41 error     at Request.emit (events.js:117:20)
+41 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+41 error     at IncomingMessage.emit (events.js:117:20)
+41 error     at _stream_readable.js:938:16
+41 error     at process._tickCallback (node.js:419:13)
+42 error If you need help, you may report this *entire* log,
+42 error including the npm and node versions, at:
+42 error     <http://github.com/npm/npm/issues>
+43 error System Darwin 13.4.0
+44 error command "node" "/usr/local/bin/npm" "publish"
+45 error cwd /Users/craig/Developer/Public/comerr.js
+46 error node -v v0.10.30
+47 error npm -v 1.4.24
+48 verbose exit [ 1, true ]

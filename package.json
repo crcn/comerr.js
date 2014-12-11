@@ -1,6 +1,6 @@
 {
     "name": "comerr",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "description": "ERROR: No README.md file found!",
     "main": "lib/index.js",
     "scripts": {
